@@ -1,0 +1,111 @@
+*{
+    transition: all 1 linear;
+}
+body{
+    width: 98vw;
+    height: 98vh;
+    overflow-y: hidden;
+}
+img{
+    margin-top: 9%;
+    height: 60%;
+    width: 40%;
+    margin-left: 30%;
+}
+.lung{
+    position: absolute;
+    top: 52%;
+    left: 43%;
+    width: 109px;
+    height: 177px;
+    border-radius: 50%;
+    rotate: 10deg;
+}
+.lung .txt{
+    top: -150%;
+    position: relative;
+    left: -111500%;
+    opacity: 0;
+    rotate: -10deg;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: #cccccc24;
+    border-radius: 15px;
+    outline: 3px solid black;
+    box-shadow: 3px 3px 3px 3px #6c6c6c;
+}
+.lung:hover .txt{
+    opacity: 1;
+    left: -500%;
+}
+.lung .txt h1{
+    outline: 3px solid black;
+    border-radius: 15px;
+}
+
+.lung2{
+    position: absolute;
+    top: 52%;
+    left: 50.5%;
+    width: 109px;
+    height: 177px;
+    border-radius: 50%;
+    rotate: -30deg;
+}
+.lung2 .txt{
+    top: -350%;
+    position: relative;
+    left: -11500%;
+    opacity: 0;
+    rotate: 30deg;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: #cccccc24;
+    border-radius: 15px;
+    outline: 3px solid black;
+    box-shadow: 3px 3px 3px 3px #6c6c6c;
+}
+.lung2:hover .txt{
+    opacity: 1;
+    left: -500%;
+}   
+.lung2 .txt h1{
+    outline: 3px solid black;
+    border-radius: 15px;
+}
+
+
+.nose{
+    position: absolute;
+    top: 35%;
+    left: 41.7%;
+    width: 50px;
+    height: 25px;
+    border-radius: 50%;
+    rotate: 130deg;
+}
+
+.nose .txt{
+    top: 150%;
+    position: relative;
+    left: 11500%;
+    opacity: 0;
+    rotate: -130deg;
+    width: 300px;
+    height: 230px;
+    text-align: center;
+    background-color: #cccccc;
+    border-radius: 15px;
+    outline: 3px solid black;
+    box-shadow: 3px 3px 3px 3px #6c6c6c;
+}
+.nose:hover .txt{
+    opacity: 1;
+    left: 150%;
+}   
+.nose .txt h1{
+    outline: 3px solid black;
+    border-radius: 15px;
+}
