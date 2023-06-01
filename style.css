@@ -1,5 +1,5 @@
 *{
-    transition: all 1 linear;
+    transition: all 0.5s linear;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 body{
@@ -33,7 +33,7 @@ img{
     width: 300px;
     height: 380px;
     text-align: center;
-    background-color: blue;
+    background-color: #c4e8f5;
     border-radius: 15px;
 
 
@@ -61,7 +61,6 @@ img{
     rotate: -30deg;
 }
 .lung2 .txt{
-    padding: 5%;
     top: -350%;
     position: relative;
     left: -11500%;
@@ -72,7 +71,7 @@ img{
     text-align: center;
 
     border-radius: 15px;
-    background-color: blue;
+    background-color: #c4e8f5;
  
 
 }
@@ -109,7 +108,7 @@ img{
     width: 300px;
     height: 280px;
     text-align: center;
-    background-color: blue;
+    background-color: #c4e8f5;
     border-radius: 15px;
 
 
@@ -146,7 +145,7 @@ img{
     width: 300px;
     height: 280px;
     text-align: center;
-    background-color: blue;
+    background-color: #c4e8f5;
     border-radius: 15px;
 
 
@@ -183,7 +182,7 @@ img{
     width: 300px;
     height: 180px;
     text-align: center;
-    background-color: rgb(0, 255, 229);
+    background-color: #c4e8f5;
     border-radius: 15px;
 
 
@@ -203,3 +202,46 @@ img{
 p{
     color: #555555 !important;
 }
+
+
+
+.Trachea{
+    position: absolute;
+    top: 46%;
+    left: 48.5%;
+    width: 30px;
+    height: 100px;
+    border-radius: 50%;
+    rotate: -8deg;
+}
+
+.Trachea .txt{
+    top: 150%;
+    position: relative;
+    left: -11500%;
+    opacity: 0;
+    rotate: 8deg;
+    width: 340px;
+    height: 180px;
+    text-align: center;
+    background-color: #c4e8f5;
+    border-radius: 15px;
+}
+.Trachea:hover .txt{
+    opacity: 1;
+    left: 150%;
+}   
+.Trachea .txt h1{
+    background-color: white;
+    border-bottom-left-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+    border-radius: 15px;
+}
+
+p{
+    color: #555555 !important;
+}
+
+
+
+
