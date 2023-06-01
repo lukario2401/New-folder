@@ -54,6 +54,7 @@ img{
     rotate: -30deg;
 }
 .lung2 .txt{
+    padding: 5%;
     top: -350%;
     position: relative;
     left: -11500%;
@@ -106,6 +107,39 @@ img{
     left: 150%;
 }   
 .nose .txt h1{
+    outline: 3px solid black;
+    border-radius: 15px;
+}
+
+.epiglottis{
+    position: absolute;
+    top: 41%;
+    left: 47.5%;
+    width: 35px;
+    height: 15px;
+    border-radius: 50%;
+    rotate: 130deg;
+}
+
+.epiglottis .txt{
+    top: 150%;
+    position: relative;
+    left: 11500%;
+    opacity: 0;
+    rotate: -130deg;
+    width: 300px;
+    height: 230px;
+    text-align: center;
+    background-color: #cccccc;
+    border-radius: 15px;
+    outline: 3px solid black;
+    box-shadow: 3px 3px 3px 3px #6c6c6c;
+}
+.epiglottis:hover .txt{
+    opacity: 1;
+    left: 150%;
+}   
+.epiglottis .txt h1{
     outline: 3px solid black;
     border-radius: 15px;
 }
