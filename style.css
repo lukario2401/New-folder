@@ -279,3 +279,77 @@ p{
     margin-top: -0.01%;
     color: white;
 }
+
+
+.normal{
+    z-index: 1000;
+    position: absolute;
+    top: 32%;
+    left: 70%;
+    width: 60px;
+    height: 80px;
+    border-radius: 50%;
+    rotate: -8deg;
+
+}
+
+.normal .txt{
+    top: 150%;
+    position: relative;
+    left: -11500%;
+    opacity: 0;
+    rotate: 8deg;
+    width: 340px;
+    height: 180px;
+    text-align: center;
+    background-color: #c4e8f5;
+    border-radius: 15px;
+    display: none;
+}
+.normal:hover .txt{
+    opacity: 1;
+    left: -100%;
+}   
+.normal .txt h1{
+    background-color: white;
+    border-bottom-left-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+    border-radius: 15px;
+}
+
+
+
+.asthma{
+    z-index: 1000;
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    rotate: -8deg;
+}
+
+.asthma .txt{
+    top: 150%;
+    position: relative;
+    left: -11500%;
+    opacity: 0;
+    rotate: 8deg;
+    width: 340px;
+    height: 180px;
+    text-align: center;
+    background-color: #c4e8f5;
+    border-radius: 15px;
+    display: none;
+}
+.asthma:hover .txt{
+    opacity: 1;
+    left: -110%;
+}   
+.asthma .txt h1{
+    background-color: white;
+    border-bottom-left-radius: 0% !important;
+    border-bottom-right-radius: 0% !important;
+    border-radius: 15px;
+}
