@@ -5,7 +5,7 @@ let but = document.getElementById('but');
 let astxt = document.getElementById('astxt');
 let notxt = document.getElementById('notxt');
 let mode = 1;
-but.style.backgroundColor="green";
+but.style.backgroundColor="lime";
 function fun(){
     if(mode==1){
         img.src="infected.png";
@@ -13,7 +13,7 @@ function fun(){
         info.style.display="block";
         mode=0;
         but.innerHTML= `<h3>view normal </h2>`;
-        but.style.backgroundColor="red";
+        but.style.backgroundColor="aqua";
         astxt.style.display="block";
         notxt.style.display="block";
     }else{
@@ -22,7 +22,7 @@ function fun(){
         info.style.display="none";
         mode=1;
         but.innerHTML= `<h3>view asthma</h2>`;
-        but.style.backgroundColor="green";
+        but.style.backgroundColor="lime";
         astxt.style.display="none";
         notxt.style.display="none";
     }
