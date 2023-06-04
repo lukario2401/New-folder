@@ -12,7 +12,7 @@ function fun(){
         kmg.src="asthma.png";
         info.style.display="block";
         mode=0;
-        but.innerHTML= `<h2>view normal </h2>`;
+        but.innerHTML= `<h3>view normal </h2>`;
         but.style.backgroundColor="red";
         astxt.style.display="block";
         notxt.style.display="block";
@@ -21,7 +21,7 @@ function fun(){
         kmg.src="";
         info.style.display="none";
         mode=1;
-        but.innerHTML= `<h2>view asthma</h2>`;
+        but.innerHTML= `<h3>view asthma</h2>`;
         but.style.backgroundColor="green";
         astxt.style.display="none";
         notxt.style.display="none";
