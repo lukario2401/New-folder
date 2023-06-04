@@ -247,10 +247,10 @@ p{
 }
 #info{
     position: absolute;
-    top: 1%;
+    top: 10%;
     left: 1%;
     width: 30%;
-    height: 90%;
+    height: 50%;
     background-color: #c4e8f5;
     padding: 0;
     border-top-left-radius:15px ;
