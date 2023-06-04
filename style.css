@@ -273,7 +273,7 @@ p{
     z-index: 10000;
     width: 10%;
     height: 5%;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 0px solid black !important;
 }
 
@@ -299,7 +299,7 @@ p{
     z-index: 10000;
     top: 150%;
     position: relative;
-    left: 11500%;
+    left: -11500%;
     opacity: 0;
     rotate: 8deg;
     width: 440px;
