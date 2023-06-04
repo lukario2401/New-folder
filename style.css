@@ -294,13 +294,14 @@ p{
 }
 
 .normal .txt{
+    z-index: 10000;
     top: 150%;
     position: relative;
     left: -11500%;
     opacity: 0;
     rotate: 8deg;
-    width: 340px;
-    height: 180px;
+    width: 440px;
+    height: 280px;
     text-align: center;
     background-color: #c4e8f5;
     border-radius: 15px;
